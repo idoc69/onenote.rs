@@ -61,6 +61,6 @@ pub(crate) fn parse(object: &Object) -> Result<Data> {
         language_code,
         properties,
     };
-
+println!("Hello, world!");
     Ok(data)
 }
